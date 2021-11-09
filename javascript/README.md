@@ -13,7 +13,7 @@
     let myInt = 2
     const myInt = 4
 ```
-- String (Text) - [Example](/data-types/strings.js)
+- String (Text) - [Example](/javascript/data-types/strings.js)
 ```js
     var myString = "My Text Here" 
     var myString = 'My Text Here'
@@ -23,7 +23,7 @@
     myStringWithWhiteSpaces = myStringWithWhiteSpaces.trim()
     console.log(myStringWithWhiteSpaces) // "My Text Here"
 ```
-- [Boolean](https://www.w3schools.com/js/js_booleans.asp)  - [Example](/data-types/boolean.js)
+- [Boolean](https://www.w3schools.com/js/js_booleans.asp)  - [Example](/javascript/data-types/boolean.js)
     Boolean Values
     Very often, in programming, you will need a data type that can only have one of two values, like
 
@@ -32,7 +32,7 @@
     TRUE / FALSE
     For this, JavaScript has a Boolean data type. It can only take the values true or false.
 
-- Array (list) - [Example](/data-types/arrays.js)
+- Array (list) - [Example](/javascript/data-types/arrays.js)
 ```js            
 var myNumberList = [1, 2, 3, 4, 5]
 var myStringList = ["String 1", "String 2", "String 3" ,"String 4"]
@@ -76,7 +76,7 @@ var myStringInTheList = myStringList[3];
 console.log(myStringInTheList) // "String 4"
 
 ```
-- Object (JSON - JavaScript Object Notation) - [Example](/data-types/objects.js)
+- Object (JSON - JavaScript Object Notation) - [Example](/javascript/data-types/objects.js)
 ```js
     var person = {
         name: "My Name",
@@ -91,7 +91,7 @@ console.log(myStringInTheList) // "String 4"
 ```
 
 ## Functions
-[Example](/functions.js)
+[Example](/javascript/functions.js)
 
 A JavaScript function is a block of code designed to perform a particular task.
 A JavaScript function is executed when "something" invokes it (calls it).
@@ -135,7 +135,7 @@ Function arguments are the values received by the function when it is invoked.
 Inside the function, the arguments (the parameters) behave as local variables.
 
 ## Conditions 
-[Example](/conditions.js)
+[Example](/javascript/conditions.js)
 
 Conditional statements are used to perform different actions based on different conditions.
 
