@@ -55,6 +55,19 @@ function RunApp(){
     console.log(myNewPerson);
     console.log("List of Objects:")
     console.log(personList);
+
+    const personWithMethod = {
+        firstName: "John",
+        lastName : "Doe",
+        id       : 5566,
+        fullName : function() {            
+          return this.firstName + " " + this.lastName;
+        }
+    };
+
+    var fullName = personWithMethod.fullName();
+    console.log(fullName)
+
 }
 
 RunApp();

@@ -1,14 +1,14 @@
 function ArrayIndex(){
     var myStringList = ["String 1", "String 2", "String 3" ,"String 4"]
-    var index0 = myStringList[0];
-    var index1 = myStringList[1];
-    var index2 = myStringList[2];
-    var index3 = myStringList[3];
+    var element1 = myStringList[0];
+    var element2 = myStringList[1];
+    var element3 = myStringList[2];
+    var element4 = myStringList[3];
     
-    console.log("Index 0: " + index0) // "String 1"
-    console.log("Index 1: " + index1) // "String 2"
-    console.log("Index 2: " + index2) // "String 3"
-    console.log("Index 3: " + index3) // "String 4"
+    console.log("Index 0: " + element1) // "String 1"
+    console.log("Index 1: " + element2) // "String 2"
+    console.log("Index 2: " + element3) // "String 3"
+    console.log("Index 3: " + element4) // "String 4"
 }
 
 function ArrayMethods(){
