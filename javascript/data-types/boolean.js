@@ -9,6 +9,8 @@ function RunApp(){
     console.log("jorge" != "jorge") // false
     console.log("jorge" == "roberto") // false
     console.log("jorge" != "roberto") // true
+        
+    console.log(!(10 > 20)) // true 
 
     var myBoolean = (10 > 20)
     console.log(myBoolean) // false

@@ -50,3 +50,14 @@ function RunApp(){
 }
 
 RunApp();
+
+var getSongArrayItem = (index) => {
+    var songs = ["muerte", "vida", "post-vide"]
+    return songs[index];
+}
+var getArrayItem = () => {
+    console.log("my lamnda function")
+}
+
+var mySong = getSongArrayItem(4)
+console.log(mySong);
